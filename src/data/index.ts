@@ -1,6 +1,6 @@
 export const serviceItems = [
   {
-    title: "Seated Dinner",
+    title: "48 Wall ST",
     description:
       "When hosting your dinner party at 48 Wall Street you can expect to enjoy a delicious dining experience. The Tardi's executive chef and culinary team will help you create and design a custom menu for your event.",
     images: [
@@ -10,9 +10,10 @@ export const serviceItems = [
     ],
     buttonText: "Explore more",
     buttonLink: "#seated-dinner",
+    pillLabel: "Venue",
   },
   {
-    title: "Cocktail Events",
+    title: "Fidi Banking Hall",
     description:
       "Hosting a cocktail reception at 48 Wall Street is truly a remarkable experience. Allowing guests the opportunity to explore the extraordinary space of 48 Wall Street while drinking specialty cocktails and enjoying delicious and creative cuisine makes it the perfect social setting for your guests.",
     images: [
@@ -22,6 +23,7 @@ export const serviceItems = [
     ],
     buttonText: "Explore more",
     buttonLink: "#cocktail-events",
+    pillLabel: "Venue",
   },
   {
     title: "Corporate Meetings",
@@ -34,6 +36,7 @@ export const serviceItems = [
     ],
     buttonText: "Explore more",
     buttonLink: "#corporate-meetings",
+    pillLabel: "Event Enhancement",
   },
   {
     title: "Wedding Celebrations",
@@ -46,5 +49,6 @@ export const serviceItems = [
     ],
     buttonText: "Explore more",
     buttonLink: "#wedding-celebrations",
+    pillLabel: "Event Enhancement",
   },
 ];

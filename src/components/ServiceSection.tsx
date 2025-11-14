@@ -9,8 +9,7 @@ interface ServiceItem {
   images: string[];
   buttonText: string;
   buttonLink: string;
-  // If you want a different pill label later, you can add:
-  // pillLabel?: string;
+  pillLabel?: string;
 }
 
 interface ServiceSectionProps {
@@ -69,10 +68,8 @@ const ServiceCard: React.FC<{
 
       <div className="flex w-full items-center bg-gray-50 lg:w-1/2">
         <div className="w-full px-8 py-12 lg:px-16 lg:py-20">
-          {/* 🔹 Pill on top of text area */}
           <div className="mb-4 inline-flex bg-primary px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-white">
-            {item.title}
-            {/* or use item.pillLabel ?? item.title if you add pillLabel later */}
+            {item.pillLabel}
           </div>
 
           <h2 className="mb-6 text-3xl font-light text-gray-900 lg:text-4xl xl:text-5xl">
