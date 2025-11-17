@@ -51,4 +51,17 @@ export const serviceItems = [
     buttonLink: "https://www.fidihospitality.com/#!/contactus",
     pillLabel: "Event Enhancement",
   },
+  {
+    title: "Holiday Decor",
+    description:
+      "Transform your holiday celebration into a fully immersive experience with our curated suite of event enhancements. Create instant memories with our <b>Alpine Ski Lift Chair</b>, a festive photo opportunity adorned with seasonal decor that transports guests straight to the slopes. For a touch of urban nostalgia, our <b>Vintage NYC Newspaper Stand</b> serves as a versatile focal point, perfect for distributing snacks or displaying custom-branded newspapers featuring your corporate logo. Finally, warm up the crowd with our charming wooden <b>Hot Cocoa Trolly</b>, where guests can customize their rich hot chocolate with whipped cream, marshmallows, and crushed peppermint. These interactive additions ensure that from the first photo to the final sip, your event is unforgettable.",
+    images: [
+      "/service photo/Holiday Decor/1.jpg",
+      "/service photo/Holiday Decor/2.jpg",
+      "/service photo/Holiday Decor/3.jpg",
+    ],
+    buttonText: "Learn more",
+    buttonLink: "https://www.fidihospitality.com/#!/contactus",
+    pillLabel: "Event Enhancement",
+  },
 ];
