@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ServiceItem {
@@ -25,6 +25,18 @@ const ServiceCard: React.FC<{
   const goToImage = (idx: number) => {
     setCurrentImageIndex(idx);
   };
+
+  useEffect(() => {
+    if (item.images.length <= 1) return;
+
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) =>
+        prev === item.images.length - 1 ? 0 : prev + 1
+      );
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [item.images.length]);
 
   return (
     <div
