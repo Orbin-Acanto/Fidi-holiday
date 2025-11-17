@@ -13,7 +13,7 @@ export const serviceItems = [
     pillLabel: "Venue",
   },
   {
-    title: "Fidi Banking Hall",
+    title: "FiDi Banking Hall",
     description:
       "Celebrate the holidays where history meets modern luxury. The FiDi Banking Hall, formerly the iconic Bank of Manhattan, invites you to host a truly legendary event in our majestic Banking Hall Ballroom. Featuring soaring 30-foot ceilings, ornate marble columns, and polished Travertine limestone flooring, this architectural masterpiece sets the stage for a dazzling experience. Whether you are planning an intimate milestone celebration or a grand corporate party, reserve this hidden gem today and give your guests a night of unparalleled elegance.",
     images: [
