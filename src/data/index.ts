@@ -61,6 +61,19 @@ export const serviceItems = [
       "/service photo/Holiday Decor/3.jpg",
     ],
     buttonText: "Learn more",
+    buttonLink: "https://www.eventproprentals.com/holiday/christmas",
+    pillLabel: "Event Enhancement",
+  },
+  {
+    title: "New Year Celebrations",
+    description:
+      "Bring the magic of the season to life with our full-service holiday decor and prop rentals. Whether you are looking to enhance an event or transform your own office into a winter wonderland, our team creates breathtaking scenic displays that capture the spirit of the holidays. We specialize in immersive setups featuring lush garland, twinkling lights, and rustic winter scenery, accented by playful props like snowmen and polar bears. Let us handle the heavy lifting and design, delivering a festive atmosphere that delights guests and employees alike.",
+    images: [
+      "/service photo/New Year Celebrations/1.jpg",
+      "/service photo/New Year Celebrations/2.jpg",
+      "/service photo/New Year Celebrations/3.jpg",
+    ],
+    buttonText: "Learn more",
     buttonLink: "https://www.fidihospitality.com/#!/contactus",
     pillLabel: "Event Enhancement",
   },
