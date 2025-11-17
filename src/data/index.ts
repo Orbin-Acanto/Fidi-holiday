@@ -52,9 +52,9 @@ export const serviceItems = [
     pillLabel: "Event Enhancement",
   },
   {
-    title: "Holiday Decor",
+    title: "Holiday Props and Decor",
     description:
-      "Transform your holiday celebration into a fully immersive experience with our curated suite of event enhancements. Create instant memories with our <b>Alpine Ski Lift Chair</b>, a festive photo opportunity adorned with seasonal decor that transports guests straight to the slopes. For a touch of urban nostalgia, our <b>Vintage NYC Newspaper Stand</b> serves as a versatile focal point, perfect for distributing snacks or displaying custom-branded newspapers featuring your corporate logo. Finally, warm up the crowd with our charming wooden <b>Hot Cocoa Trolly</b>, where guests can customize their rich hot chocolate with whipped cream, marshmallows, and crushed peppermint. These interactive additions ensure that from the first photo to the final sip, your event is unforgettable.",
+      "Bring the magic of the season to life with our full-service holiday decor and prop rentals. Whether you are looking to enhance an event or transform your own office into a winter wonderland, our team creates breathtaking scenic displays that capture the spirit of the holidays. We specialize in immersive setups featuring lush garland, twinkling lights, and rustic winter scenery, accented by playful props like snowmen and polar bears. Let us handle the heavy lifting and design, delivering a festive atmosphere that delights guests and employees alike.",
     images: [
       "/service photo/Holiday Decor/1.jpg",
       "/service photo/Holiday Decor/2.jpg",
