@@ -22,11 +22,9 @@ const ServiceCard: React.FC<{
   currentImageIndex: number;
   onImageChange: (idx: number) => void;
 }> = ({ item, isImageLeft, currentImageIndex, onImageChange }) => {
-  // Normalize the index to the available images
   const normalizedIndex = currentImageIndex % item.images.length;
   const [loadedImages, setLoadedImages] = useState<Set<number>>(new Set([0]));
 
-  // Preload next image
   useEffect(() => {
     const nextIndex = (normalizedIndex + 1) % item.images.length;
     if (!loadedImages.has(nextIndex)) {
@@ -50,7 +48,6 @@ const ServiceCard: React.FC<{
     >
       <div className="relative w-full lg:w-1/2">
         <div className="relative h-[400px] lg:h-[600px] overflow-hidden bg-black">
-          {/* Base layer - always visible */}
           <div className="absolute inset-0">
             <img
               src={item.images[normalizedIndex]}
@@ -59,7 +56,6 @@ const ServiceCard: React.FC<{
             />
           </div>
 
-          {/* Transition layer - fades in/out */}
           <AnimatePresence mode="wait">
             <motion.div
               key={normalizedIndex}
@@ -69,7 +65,7 @@ const ServiceCard: React.FC<{
               exit={{ opacity: 0 }}
               transition={{
                 duration: 1.2,
-                ease: [0.43, 0.13, 0.23, 0.96], // Custom easing for smooth effect
+                ease: [0.43, 0.13, 0.23, 0.96],
               }}
             >
               <motion.img
@@ -120,6 +116,8 @@ const ServiceCard: React.FC<{
 
           <motion.a
             href={item.buttonLink}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group relative inline-block overflow-hidden border border-primary bg-transparent px-8 py-3 text-sm font-medium text-primary transition-colors duration-300 hover:text-white"
             whileHover="hover"
           >

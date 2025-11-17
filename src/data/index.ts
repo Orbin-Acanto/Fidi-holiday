@@ -26,9 +26,9 @@ export const serviceItems = [
     pillLabel: "Venue",
   },
   {
-    title: "Grazing with Grace",
+    title: "Grazing With Grace",
     description:
-      "Treat your guests to the ultimate in savory indulgence with a Grazing with Grace station. This upgrade offers a bountiful selection of fine cheeses, cured meats, seasonal fruits, and artisan breads. A professional attendant is on hand to assist guests in crafting the perfect custom charcuterie board. Grazing with Grace is a seamless blend of abundance and personal attention that is sure to be a highlight of the evening.",
+      "Treat your guests to the ultimate in savory indulgence with a Grazing With Grace station. This upgrade offers a bountiful selection of fine cheeses, cured meats, seasonal fruits, and artisan breads. A professional attendant is on hand to assist guests in crafting the perfect custom charcuterie board. Grazing with Grace is a seamless blend of abundance and personal attention that is sure to be a highlight of the evening.",
     images: [
       "/service photo/Grazing with Grace/1.jpg",
       "/service photo/Grazing with Grace/2.jpg",
@@ -36,7 +36,7 @@ export const serviceItems = [
     ],
     buttonText: "Learn more",
     buttonLink: "https://www.grazingwithgrace.co/",
-    pillLabel: "Event Enhancement",
+    pillLabel: "Culinary Experience",
   },
   {
     title: "Holiday Event Enhancements",
@@ -75,6 +75,6 @@ export const serviceItems = [
     ],
     buttonText: "Learn more",
     buttonLink: "https://www.fidihospitality.com/#!/contactus",
-    pillLabel: "Event Enhancement",
+    pillLabel: "Event Services",
   },
 ];
