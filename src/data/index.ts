@@ -67,7 +67,7 @@ export const serviceItems = [
   {
     title: "New Year Celebrations",
     description:
-      "Bring the magic of the season to life with our full-service holiday decor and prop rentals. Whether you are looking to enhance an event or transform your own office into a winter wonderland, our team creates breathtaking scenic displays that capture the spirit of the holidays. We specialize in immersive setups featuring lush garland, twinkling lights, and rustic winter scenery, accented by playful props like snowmen and polar bears. Let us handle the heavy lifting and design, delivering a festive atmosphere that delights guests and employees alike.",
+      "Ring in the New Year with an unforgettable celebration designed by our full-service production team. We provide everything you need to set the perfect party atmosphere, from sleek lounge furniture rentals and custom dance floors to immersive lighting and exquisite floral arrangements. Whether you are hosting an intimate gathering or a massive gala, let us handle every detail to ensure your start to the new year is nothing short of spectacular.",
     images: [
       "/service photo/New Year Celebrations/1.jpg",
       "/service photo/New Year Celebrations/2.jpg",
