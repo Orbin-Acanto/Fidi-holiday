@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
 
           <div className="flex flex-col items-center space-y-4 text-center sm:flex-row sm:space-x-6 sm:space-y-0">
             <p className="text-sm text-gray-400">
-              Copyright © {currentYear} Fidi Hospitality. All rights reserved.
+              Copyright © {currentYear} FiDi Hospitality. All rights reserved.
             </p>
           </div>
         </div>
