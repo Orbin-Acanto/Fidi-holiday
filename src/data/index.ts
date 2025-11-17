@@ -39,9 +39,9 @@ export const serviceItems = [
     pillLabel: "Event Enhancement",
   },
   {
-    title: "Hot Cocoa Cart",
+    title: "Holiday Event Enhancements",
     description:
-      "Treat your guests to the ultimate winter comfort with our bespoke Hot Cocoa Cart. This delightful addition serves as both a visual focal point and a delicious dessert station, featuring a beautifully crafted wooden push cart. Guests can customize their cup of rich cocoa with premium toppings such as whipped cream, marshmallows, and a dusting of crushed peppermint candy, ensuring a sweet and memorable conclusion to your holiday festivities.",
+      "Transform your holiday celebration into a fully immersive experience with our curated suite of event enhancements. Create instant memories with our <b>Alpine Ski Lift Chair</b>, a festive photo opportunity adorned with seasonal decor that transports guests straight to the slopes. For a touch of urban nostalgia, our <b>Vintage NYC Newspaper Stand</b> serves as a versatile focal point, perfect for distributing snacks or displaying custom-branded newspapers featuring your corporate logo. Finally, warm up the crowd with our charming wooden <b>Hot Cocoa Trolly</b>, where guests can customize their rich hot chocolate with whipped cream, marshmallows, and crushed peppermint. These interactive additions ensure that from the first photo to the final sip, your event is unforgettable.",
     images: [
       "/service photo/Hot Cocoa Cart/1.jpg",
       "/service photo/Hot Cocoa Cart/2.jpg",

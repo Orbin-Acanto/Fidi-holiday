@@ -5,7 +5,7 @@ const ParallaxSection: React.FC = () => {
     <section
       className="
         relative 
-        h-[60vh]
+        h-[40vh]
         overflow-hidden
         parallax-bg
         mt-24

@@ -113,9 +113,10 @@ const ServiceCard: React.FC<{
           <h2 className="mb-6 text-3xl font-light text-gray-900 lg:text-4xl xl:text-5xl">
             {item.title}
           </h2>
-          <p className="mb-8 text-base leading-relaxed text-gray-600 lg:text-lg">
-            {item.description}
-          </p>
+          <p
+            className="mb-8 text-base leading-relaxed text-gray-600 lg:text-lg"
+            dangerouslySetInnerHTML={{ __html: item.description }}
+          />
 
           <motion.a
             href={item.buttonLink}
@@ -142,7 +143,6 @@ export const ServiceSection: React.FC<ServiceSectionProps> = ({ items }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
-    // Only set up interval if at least one item has multiple images
     const hasMultipleImages = items.some((item) => item.images.length > 1);
     if (!hasMultipleImages) return;
 
