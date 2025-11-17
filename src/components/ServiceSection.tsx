@@ -10,6 +10,8 @@ interface ServiceItem {
   buttonText: string;
   buttonLink: string;
   pillLabel?: string;
+  subTitle2?: string;
+  subDescription?: string;
 }
 
 interface ServiceSectionProps {
@@ -101,7 +103,7 @@ const ServiceCard: React.FC<{
       </div>
 
       <div className="flex w-full items-center bg-gray-50 lg:w-1/2">
-        <div className="w-full px-8 py-12 lg:px-16 lg:py-20">
+        <div className="w-full px-8 py-8 lg:px-16 lg:py-16">
           <div className="mb-4 inline-flex bg-primary px-4 py-1 text-xs font-medium uppercase tracking-[0.2em] text-white">
             {item.pillLabel}
           </div>
@@ -110,9 +112,15 @@ const ServiceCard: React.FC<{
             {item.title}
           </h2>
           <p
-            className="mb-8 text-base leading-relaxed text-gray-600 lg:text-lg"
+            className="text-base leading-relaxed text-gray-600 lg:text-lg"
             dangerouslySetInnerHTML={{ __html: item.description }}
           />
+          <p className="mt-2 text-base leading-relaxed text-gray-600 lg:text-lg">
+            <b>{item.subTitle2}</b>
+          </p>
+          <p className="mb-8 text-base leading-relaxed text-gray-600 lg:text-lg">
+            {item.subDescription}
+          </p>
 
           <motion.a
             href={item.buttonLink}

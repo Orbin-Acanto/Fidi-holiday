@@ -2,14 +2,17 @@ export const serviceItems = [
   {
     title: "48 Wall Street",
     description:
-      "Make history this holiday season by hosting your event at New York City’s premier downtown venue on Wall Street. Our Grand Mezzanine Banking Hall sets the stage for a truly spectacular evening, boasting preserved architectural details that channel the grandeur of the Gilded Age. From the elaborate entrance and grand marble staircase to the light-filled Palladian windows and 30-foot ceilings, every corner of the space is designed to impress. Secure a date today and give your guests an experience wrapped in the luxury and prestige of historic New York.",
+      "Make history this holiday season by hosting your event at New York City’s premier downtown venue. 48 Wall Street occupies three floors of the former Bank of New York & Trust Company Building. This unique space sets the stage for a truly spectacular evening, boasting preserved architectural details that channel the grandeur of the Gilded Age. Give your guests an experience wrapped in the luxury and prestige this holiday season.",
     images: [
       "/service photo/48 Wall/1.jpg",
       "/service photo/48 Wall/2.jpg",
       "/service photo/48 Wall/3.jpg",
     ],
+    subTitle2: "Planning a New Year's Eve Celebration?",
+    subDescription:
+      "Ring in the New Year at one of the most iconic buildings on one of the most iconic blocks in Manhattan’s Financial District. If you’re looking for a unique and historic venue, 48 Wall Street offers the perfect venue setting for an unforgettable New Year’s Eve celebration.",
     buttonText: "Visit 48 Wall Street",
-    buttonLink: "https://www.48wallnyc.com/",
+    buttonLink: "https://www.48wallnyc.com/holiday-events.html",
     pillLabel: "Venue",
   },
   {
@@ -22,7 +25,7 @@ export const serviceItems = [
       "/service photo/FiDi Banking Hall/3.jpg",
     ],
     buttonText: "Visit FiDi Banking Hall",
-    buttonLink: "https://www.fidibankinghall.com/",
+    buttonLink: "https://www.fidibankinghall.com/holiday-events.html",
     pillLabel: "Venue",
   },
   {
