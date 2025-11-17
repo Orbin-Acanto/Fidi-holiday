@@ -19,10 +19,7 @@ const ParallaxSection: React.FC = () => {
         playsInline
         preload="auto"
       >
-        <source
-          src="/Lower_Manhattan_Financial_District_Website.mp4"
-          type="video/mp4"
-        />
+        <source src="/videos/vid3.mp4" type="video/mp4" />
       </video>
 
       <div className="absolute inset-0 bg-black/30"></div>
