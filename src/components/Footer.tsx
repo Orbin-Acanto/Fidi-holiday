@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col items-center justify-center space-y-6">
           <div className="flex items-center gap-6">
             <motion.a
-              href="https://instagram.com"
+              href="https://www.instagram.com/fidi_hospitality/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 transition-colors duration-300 hover:text-primary"
