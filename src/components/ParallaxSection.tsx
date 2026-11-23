@@ -17,7 +17,7 @@ const ParallaxSection: React.FC = () => {
         loop
         muted
         playsInline
-        preload="auto"
+        preload="metadata"
       >
         <source src="/videos/vid3.mp4" type="video/mp4" />
       </video>
@@ -25,10 +25,10 @@ const ParallaxSection: React.FC = () => {
       <div className="absolute inset-0 bg-black/30"></div>
 
       <div className="relative z-10 h-full flex items-center justify-center">
-        <h2 className="text-white text-4xl text-center md:text-6xl font-light tracking-wide drop-shadow-xl uppercase font-primary">
+        <h1 className="text-white text-4xl text-center md:text-6xl font-light tracking-wide drop-shadow-xl uppercase font-primary">
           'tis the season for magical
           <br /> holiday celebrations
-        </h2>
+        </h1>
       </div>
     </section>
   );

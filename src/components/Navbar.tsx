@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
             >
               <img
                 src="/logo/logo.png"
-                alt="48 Wall Street"
+                alt="FiDi Hospitality"
                 className="h-20 w-auto"
               />
             </a>
